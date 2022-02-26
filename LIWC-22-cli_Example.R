@@ -283,3 +283,4 @@ print(liwc22.data$Analytic)
 # That said, this is a perfectly acceptable solution even if it is not computationally
 # optimal. The most important thing is that your data gets analyzed correctly and
 # that your code is understandable to you!
+
