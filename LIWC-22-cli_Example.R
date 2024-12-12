@@ -15,7 +15,7 @@
 #
 #
 #    Ryan L. Boyd
-#    2022-02-26
+#    2023-03-03
 #
 #
 #
@@ -68,13 +68,17 @@ cmd_to_execute <- paste("LIWC-22-cli",
 
 
 # Let's go ahead and run this analysis:
-
 shell(cmd=cmd_to_execute, #specify the command that we want to run
       shell=shellType,    #specify the shell type we are calling
       intern=FALSE,       #specify that we do *not* want the output to be returned as an R object
       wait=TRUE,          #specify that we do, in fact, want to wait for the shell command to finish running before we continue
       mustWork=TRUE)      #we want to halt execution of this R script if something about our call to the shell fails
 
+# !! IMPORTANT !!
+# !! IMPORTANT !!
+# The "shell()" function might not work on your system, depending on your OS, etc.
+# You may instead need to use the "system()" function. See:
+# https://stat.ethz.ch/R-manual/R-devel/library/base/html/system.html
 
 
 # We will see the following in the terminal as it begins working:
