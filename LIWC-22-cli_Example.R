@@ -27,10 +27,14 @@
 #    This is a very crude example script, so please feel free to improve/innovate on this code :)
 #
 #
-#    Make sure that you have the LIWC-22.exe GUI running - it is required for the CLI to function correctly :)
-#    Make sure that you have the LIWC-22.exe GUI running - it is required for the CLI to function correctly :)
-#    Make sure that you have the LIWC-22.exe GUI running - it is required for the CLI to function correctly :)
-#    Make sure that you have the LIWC-22.exe GUI running - it is required for the CLI to function correctly :)
+#    Make sure that you have either the LIWC-22 GUI or LIWC-22-license-server running in the background — 
+#        it is required for the CLI to function correctly :)
+#
+#    Make sure that you have either the LIWC-22 GUI or LIWC-22-license-server running in the background — 
+#        it is required for the CLI to function correctly :)
+#
+#    Make sure that you have either the LIWC-22 GUI or LIWC-22-license-server running in the background — 
+#        it is required for the CLI to function correctly :)
 
 
 
